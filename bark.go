@@ -71,7 +71,7 @@ func Run(group, title, data, sound string) (string, error) {
 	// 尝试发送 Bark
 	ret := rehttp.Post(url, head, b)
 	if ret.Err != nil {
-		return "", fmt.Errorf("bark post: %v", err)
+		return "", fmt.Errorf("bark post: %v", ret.Err)
 	}
 	barkResult := &Result{}
 	err = json.Unmarshal([]byte(ret.ResponseBody), barkResult)
