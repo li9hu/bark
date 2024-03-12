@@ -1,4 +1,4 @@
-module git.home/sean/bark
+module github.com/li9hu/bark
 
 go 1.21.5
 
