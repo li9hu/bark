@@ -10,12 +10,12 @@ import (
 )
 
 type Sounds struct {
-	滴嘟滴嘟   string
-	敲钟     string
-	鸟叫     string
-	急促     string
-	叮叮     string
-	谷故估谷故估 string
+	S滴嘟滴嘟   string
+	S敲钟     string
+	S鸟叫     string
+	S急促     string
+	S叮叮     string
+	S谷故估谷故估 string
 }
 
 var Sound = &Sounds{"alarm", "bell", "birdsong", "electronic", "glass", "horn"}
